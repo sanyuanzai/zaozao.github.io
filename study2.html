@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color:#eee;
+        }
+        /* *{border: 1px black solid;} */
+        .flex{
+            display: flex;
+        }
+        .ditu{background-color: #fff;
+            box-shadow:2px 2px 1px 1px rgba(0, 0, 0, .2);}
+        .flex1{flex:1}
+        .Column{flex-direction:column;}
+        .flex3{flex:3}
+        .mgn8{margin: 8px}
+        .mgt8{margin-top: 8px}
+        .mgr8{margin-right: 8px;}
+        .mgl8{margin-left: 8px;}
+        .daohang{
+            padding: 0 20px;
+            border-bottom: #999 2px solid;
+            height: 60px;
+                }
+    </style>
+</head>
+<body class="flex">
+    <!-- 左侧边栏 -->
+    <aside class="mgr8 Column" style="width:250px">
+    <!-- 头像栏 -->
+    <div class="flex ditu" style="align-items:center;padding:16px;justify-content: center;border-bottom:2px solid #999;">
+        <img src="images/dove.png" alt="gezi" style="height:48px;">
+        <div style="margin-left:10px;">矮子的家</div>
+    </div>
+    <!-- 导航横条 -->
+    <div class="Column" style="line-height: 60px;">
+    <div class="flex1 ditu mgt8 daohang">导航内容</div>
+>   <div class="flex1 ditu mgt8 daohang">导航内容</div>
+>   <div class="flex1 ditu mgt8 daohang">导航内容</div>
+>   <div class="flex1 ditu mgt8 daohang">导航内容</div>
+>   <div class="flex1 ditu mgt8 daohang">导航内容</div>
+    </div>
+    </aside>
+        <!-- 主要区域 -->
+        <main class="flex1 Column">
+            <!-- 顶部导航栏 -->
+            <nav class="ditu" style="height:80px;z-index:5;"></nav>
+            <!--内容区  -->
+            <div class="flex1 flex" style="overflow:auto">
+                <!--内容主区  -->
+                <div class="flex3 mgt8">
+                <!--内容顶部栏  -->
+                <div class="flex" style="height:80px">
+                <!--顶部方框-->
+                <div class="ditu flex1 mgr8"></div>
+                <div class="ditu flex1 mgr8"></div>
+                <div class="ditu flex1 mgr8"></div>
+                <div class="ditu flex1 mgr"></div>
+                </div>
+                <!--内容底部栏  -->
+                <div class="ditu mgt8" style="height:300px;"></div>
+                <div class="ditu mgt8" style="height:300px;"></div>
+                <div class="ditu mgt8" style="height:300px;"></div>
+                <div class="ditu mgt8" style="height:300px;"></div>
+                <div class="ditu mgt8" style="height:300px;"></div>
+                <div class="ditu mgt8" style="height:300px;"></div>   
+                </div>
+                <!-- 内容右侧边栏 -->
+                <div class="flex1 flex mgn8">
+                    <!-- 左侧消息栏 -->
+                    <div class="flex1">
+                    <!--左侧边栏上部  -->
+                    <div class="ditu mgr8" style="height:140px"></div>
+                    <!--左侧边栏下部  -->
+                    <div class="ditu mgr8 mgt8" style="height:440px"></div>
+                    </div>
+                    <!-- 右侧消息栏 -->
+                    <div class="Column" style="width:80px">
+                    <div class="ditu" style="height:180px;"></div>
+                    <div class="ditu mgt8" style="height:400px;"></div>
+                    </div>
+                </div>
+        </div>
+        </main>
+    
+</body>
+</html>
