@@ -1,0 +1,118 @@
+.hoverorange:hover{
+    background-color: #FF6424;
+}
+.reserch-button:hover{
+    background-color: #FF6424;
+    outline: none;
+    color: #FFF;
+}
+.reserchbox{
+    outline: #E0E0E0 1px solid;
+    padding:0 0 0 15px;
+    border: none;
+}
+.reserch-button{
+        font-size: 21px;
+        font-weight: bolder;
+        color: #616161;
+        background: #fff;
+        outline: #E0E0E0 1px solid;
+        border: none;
+}
+
+.toper-nav{
+    background-color:#333333;
+    height: 40px;
+}
+.w1226{
+    width:1226px;
+}
+.navlist>a{
+color:#B0B0B0;
+font-size: 12px;
+}
+.navlist{
+    padding:0 7px;
+    line-height:40px;
+}
+.vertical-bar{
+    color:#3F3F3F;
+    font-size: 12px;
+}
+.navlist>a:hover{color:#E0E0E0}
+.cart{
+    background-color:#424242;
+    color: #B0B0B0;
+    font-size:12px;
+    display: block;
+    width:120px;
+    height:40px;
+    line-height:40px;
+    
+}
+.cart:hover{
+    background-color: #FFF;
+    color: #FF6424;
+}
+/* .qscode{
+    width: 124px;
+    height: 148px;
+    height: 0;
+    overflow: hidden;
+} */
+.background{
+    background-image: url(../images/xiaomidaohangtu.webp);
+    background-size:contain;
+    height: 460px;
+}
+.list{
+    margin:0;
+    padding: 20px 0;
+    line-height:40px;
+    background-color: rgba(2, 2, 2, 0.5);
+    height:420px;
+}
+.goodslist{
+    height: 42px;
+    list-style-type: none;
+    padding-left:30px;
+}
+.goodslist>a{
+    color: #FFF;
+    font-size: 14px;
+}
+
+
+.pic{width: 316px;}
+
+.container{
+    display: grid;
+    grid: repeat(2, 82px) / auto-flow 76px;
+   text-align: center;
+}
+.container div{
+    width: 76px;
+    height: 76px;
+    font-size: 14px;
+    background-color:#5F5751;
+    border: #B0B0B0 1px solid;
+    color: #CFCCCA;
+}
+.container i{
+    font-size: 25px;
+    display:block;
+    color: #CFCCCA;
+    margin-bottom: 5px;
+    padding-top: 13px;
+}
+.container i:hover,
+.container div:hover{
+    color: #E0E0E0;
+}
+.pic{
+    margin: 0 5px;
+}
+.pic:hover{
+    box-shadow:2px 2px 50px 5px  rgba(2, 2, 2, 0.2);
+    transition:1s;
+}

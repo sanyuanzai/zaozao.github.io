@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <style>
+        /* *{border: 1px black solid;} */
+        body{
+            margin: 0;
+            padding: 0;
+            min-width:1226px;
+        }
+        a{text-decoration: none;}
+        header,main,footer{
+            width:1222px;
+            margin:0 auto;
+            align-content: center;
+        }
+        header{
+            height: 560px;
+        }
+        .flex{display: flex;}
+        .flex1{flex:1}
+        .Colume{flex-direction: column;}
+        .alicenter{
+            align-self: center;
+        }
+        .goodscli{
+            padding: 36px 10px 28px;
+        }
+        .goodscli>a{color: #333;}
+        .goodscli>a:hover{
+            color:#FF6424;
+        }
+    </style>
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <link rel="stylesheet" href="styles/0xiaomi.css">
+</head>
+<body class="Column">
+    <!-- 最顶部导航栏 -->
+<div class="toper-nav flex">
+    <div class="flex w1226" style="margin:0 auto;position: relative;">
+        <div class="navlist"><a href="#">小米官网</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">MiUl</a></div>
+        <span class="alicenter vertical-bar">|</span>
+        <div class="navlist"><a href="#">小米商城</a></div>
+        <span class="alicenter vertical-bar">|</span>
+        <div class="navlist"><a href="#">loT</a></div>
+        <span class="alicenter vertical-bar">|</span>
+        <div class="navlist"><a href="#">云服务</a></div>
+        <span class="alicenter vertical-bar">|</span>
+        <div class="navlist"><a href="#">天星数科</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">有品</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">小爱科技平台</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">企业团购</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">资质证照</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">协议规则</a></div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">下载app</a>
+        <!-- app二维码界面 -->
+        <div class="qrcode">
+            <img src="images/2weima.png" alt="二维码" style="height:90px;display: block;">
+            <span>小米商城app</span>
+        </div>
+        <!-- 导航栏 -->
+        </div>
+        <span class="alicenter vertical-bar" >|</span>
+        <div class="navlist"><a href="#">Select Location</a></div>
+        <!-- 右侧 -->
+        <div class="flex1 flex">
+            <div class="flex1 flex" style="justify-content:right">
+                <div class="navlist"><a href="#">登录</a></div>
+                <span class="alicenter vertical-bar">|</span>
+                <div class="navlist"><a href="#">注册</a></div>
+                <span class="alicenter vertical-bar">|</span>
+                <div class="navlist" style="margin-right:25px;"><a href="#">消息通知</a></div>
+            </div>
+                <div class="flex"><a href="#" class="alicenter iconfont cart">
+                    <i style="width:15px;display:inline-block;"></i>
+                    <i style="font-size:16px;">&#xe600;</i>
+                购物车 &lpar;0&rpar;
+                </a>
+                </div>
+        </div>
+    </div>
+</div>
+<!-- 头部 -->
+<header class="Cloumn">
+    <!-- 顶部导航栏 -->
+    <div class="header-nav flex" style="height:100px;">
+        <!-- logo -->
+        <div class="logo alicenter" style="width:234px;"><a href="#"><img src="images/xiaomilogo.jpg" alt="logo"
+                    style="height:56px;"></a></div>
+        <!-- 中间搜索栏部分 -->
+        <div class="flex flex1">
+            .
+            <!-- 商品分类栏 -->
+            <div class="goods-class flex flex1">
+                <div class="goodscli"><a href="#">Xiaomi手机</a></div>
+                <div class="goodscli"><a href="#">Redmi手机</a></div>
+                <div class="goodscli"><a href="#">电视</a></div>
+                <div class="goodscli"><a href="#">笔记本</a></div>
+                <div class="goodscli"><a href="#">平板</a></div>
+                <div class="goodscli"><a href="#">家电</a></div>
+                <div class="goodscli"><a href="#">路由器</a></div>
+                <div class="goodscli"><a href="#">服务中心</a></div>
+                <div class="goodscli"><a href="#">社区</a></div>
+            </div>
+            <!-- 搜索栏 -->
+            <div class="reserch-bar alicenter flex" style="width:297px;height:50px;">
+                <input type="search" class="flex1 reserchbox" placeholder="红米" name="">
+                <button style="width:52px" class="iconfont reserch-button">&#xe6e4;</button>
+            </div>
+        </div>
+    </div>
+    <!-- 轮播图栏 -->
+    <div class="flex flex1 background">
+        <!-- 轮播图列表 -->
+        <ul class="Cloumn list" style="width:234px;">
+        <li class="goodslist hoverorange"><a href="#">手机</a></li>
+        <li class="goodslist hoverorange"><a href="#">家电</a></li>
+        <li class="goodslist hoverorange"><a href="#">电视</a></li>
+        <li class="goodslist hoverorange"><a href="#">笔记本 平板</a></li>
+        <li class="goodslist hoverorange"><a href="#">出行 穿戴</a></li>
+        <li class="goodslist hoverorange"><a href="#">耳机 音响</a></li>
+        <li class="goodslist hoverorange"><a href="#">儿童 健康</a></li>
+        <li class="goodslist hoverorange"><a href="#">生活 箱包</a></li>
+        <li class="goodslist hoverorange"><a href="#">智能 路由器</a></li>
+        <li class="goodslist hoverorange"><a href="#">电源 配件</a></li>
+        </ul>
+        <div class="background"></div>
+    </div>
+    <!-- 轮播图下方 -->
+    <div class="flex" style="height: 170px;margin-top:14px;">
+        <!-- 列表 -->
+        <div class="container" style="width:234px;">
+            <div><i class="iconfont">&#xe617;</i>保障服务</div>
+            <div><i class="iconfont">&#xe60f;</i>企业团购</div>
+            <div><i class="iconfont">&#xe632;</i>F码通道</div>
+            <div><i class="iconfont">&#xe612;</i>米粉卡</div>
+            <div><i class="iconfont">&#xe605;</i>以旧换新</div>
+            <div><i class="iconfont">&#xe6c8;</i>话费充值</div>
+        </div>
+        <!-- 插图 -->
+        <div class="flex flex1">
+            <div class="pic flex1">
+                <a href="#"><img src="images/1.jpg" alt="" style="height: 170px;"></a>
+            </div>
+            <div class="pic flex1">
+                <a href="#"><img src="images/3.jpg" alt=""style="height: 170px;"></a>
+            </div>
+            <div class="pic flex1">
+                <a href="#"><img src="images/xiaomi2.jpg" alt=""style="height: 170px;"></a>
+            </div>
+        </div>
+    </div>
+</header>
+    
+</body>
+</html>
